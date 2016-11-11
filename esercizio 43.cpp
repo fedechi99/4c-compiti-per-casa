@@ -5,7 +5,6 @@
 
 #include <iostream>
 #include <string>
-#define MAXNUM 100
 using namespace std;
 
 
@@ -15,15 +14,15 @@ void ordinamento();
 int somma_voti();
 string nome_1;
 string nome_2;
-int voti_1[MAXNUM];
-int voti_2[MAXNUM];
+int voti_1;
+int voti_2;
 float percetuale_1;
 float percentuale_2;
 
 
 int main() {
 	void acquisizione();
-	cout<<"la percentuale di........é     "<<percentuale();
+	cout<<"la percentuale di........Ã©     "<<percentuale();
 	
 return 0;
 }	
